@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Formata';
+  src: url(data:font/opentype;base64,T1RUTwAKAIAAAwAgQ0ZGICUHo2EAAAowAABd+UdQT1Mp4SbfAABrxAAADt5PUy8yVsEspAAAARAAAABgY21hcM8akJkAAAbgAAADMGhlYWTb8NWkAAAArAAAADZoaGVhCFgEnQAAAOQAAAAkaG10eNMsIHkAAGgsAAADmG1heHAA5lAAAAABCAAAAAZuYW1lFJsWXwAAAXAAAAVtcG9zdP+4ADIAAAA=) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    font-family: 'Formata', 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    color: #fff;
+    background-color: #001A2F;
+    background-image: url('https://jcsidou.github.io/orgulho_de_ser_mp/Background-dark.jpg');
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: auto;
+    text-align: justify;
+  }
+  
+ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+h1, h2, h3 {
+  color: Yellow;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.link {
+  color: yellow;
+  text-decoration: underline;
+}
+
+strong {
+  color: Yellow;
+}
+
+.container-retranca {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+}
+
+.retranca {
+  width: 66.66%;
+  text-align: center;
+  font-style: italic;
+  color: yellow;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  padding: 0.5rem;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid yellow;
+}
+
+.retranca a {
+  color: yellow;
+  text-decoration: none;
+}
+
+.retranca:hover {
+  text-shadow: 2px 2px 5px rgba(194, 191, 27, 0.44);
+}
+
+.retranca:hover a {
+  text-decoration: underline;
+}
+
+italic {
+  font-style: italic;
+}
+
+white {
+  color: white;
+}
+
+.voltar {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}
